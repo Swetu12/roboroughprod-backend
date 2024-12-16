@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "photography_slugs",
+  "info": {
+    "singularName": "photography-slug",
+    "pluralName": "photography-slugs",
+    "displayName": "PhotographySlug",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "photos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.videography-slug"
+    }
+  }
+}

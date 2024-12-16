@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_clients",
+  "info": {
+    "displayName": "Clients",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "card": {
+      "displayName": "Review",
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.review"
+    }
+  }
+}

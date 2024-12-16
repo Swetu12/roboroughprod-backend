@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_components_heroes",
+  "info": {
+    "displayName": "Hero"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "badge": {
+      "displayName": "Badge",
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.badge"
+    },
+    "cta": {
+      "displayName": "CTA",
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.cta"
+    },
+    "clientLogos": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

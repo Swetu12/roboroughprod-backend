@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blocks_experiences",
+  "info": {
+    "displayName": "Experience"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "card": {
+      "displayName": "ExCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.ex-card"
+    }
+  }
+}

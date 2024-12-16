@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_components_abouts",
+  "info": {
+    "displayName": "About"
+  },
+  "options": {},
+  "attributes": {
+    "about": {
+      "type": "string"
+    },
+    "pfp": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "experience": {
+      "displayName": "Experience",
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.experience"
+    }
+  }
+}

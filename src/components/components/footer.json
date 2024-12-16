@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_components_footers",
+  "info": {
+    "displayName": "Footer"
+  },
+  "options": {},
+  "attributes": {
+    "available": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "copyright": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.cta"
+    }
+  }
+}

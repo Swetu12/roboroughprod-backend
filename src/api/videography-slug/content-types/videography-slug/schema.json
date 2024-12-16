@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "videography_slugs",
+  "info": {
+    "singularName": "videography-slug",
+    "pluralName": "videography-slugs",
+    "displayName": "VideographySlug",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "reels": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.videography-slug"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
