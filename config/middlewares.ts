@@ -2,9 +2,17 @@ export default [
   "strapi::logger",
   "strapi::errors",
   {
-    name: "strapi::security",
+    name: 'strapi::security',
     config: {
-      // Add security configurations if needed
+      contentSecurityPolicy: {
+        useDefaults: true,
+        directives: {
+          'connect-src': ["'self'", 'https:'],
+          'img-src': ["'self'", 'data:', 'blob:', 'res.cloudinary.com'],
+          'media-src': ["'self'", 'data:', 'blob:', 'res.cloudinary.com'],
+          upgradeInsecureRequests: null,
+        },
+      },
     },
   },
   {
@@ -13,8 +21,8 @@ export default [
       enabled: true,
       origin: [
         "http://localhost:3000",
-        "https://1de9-2a02-c7c-b247-4500-d554-f20d-a84f-aecb.ngrok-free.app/",
-      ], // Your frontend URL
+        "https://1de9-2a02-c7c-b247-4500-d554-f20d-a84f-aecb.ngrok-free.app",
+      ], // Your frontend URLs
       methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
       headers: ["Content-Type", "Authorization"],
     },
