@@ -18,11 +18,11 @@ export default [
   {
     name: "strapi::cors",
     config: {
-      enabled: true,
       origin: [
         "http://localhost:3000",
         "https://1de9-2a02-c7c-b247-4500-d554-f20d-a84f-aecb.ngrok-free.app",
-      ], // Your frontend URLs
+        "https://roboroughprod.vercel.app",
+      ],
       methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
       headers: ["Content-Type", "Authorization"],
     },
