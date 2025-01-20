@@ -1,0 +1,53 @@
+[33mcommit a699b7a28e6a77f2a736833f51eb1845de261bbb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Swetu12 <102142947+Swetu12@users.noreply.github.com>
+Date:   Mon Jan 20 17:01:05 2025 +0000
+
+    test gallery feature
+
+[33mcommit 63007a3e3b73c1e82ba98484400ec80a6b89e1e4[m
+Author: Swetu12 <102142947+Swetu12@users.noreply.github.com>
+Date:   Mon Jan 13 19:32:05 2025 +0000
+
+    fixed cors issues
+
+[33mcommit 6b6d542bb1ed766b3b6087b6ad1e416b943c42c2[m
+Author: Swetu12 <102142947+Swetu12@users.noreply.github.com>
+Date:   Mon Jan 13 18:11:55 2025 +0000
+
+    postgres update fix try 4
+
+[33mcommit 87304c073034fe6c8495bf92fbddff5d82306f87[m
+Author: Swetu12 <102142947+Swetu12@users.noreply.github.com>
+Date:   Mon Jan 13 18:05:04 2025 +0000
+
+    postgres update fix try 3
+
+[33mcommit 0ac6714ea1cebfe48950400dab03c2f98b54dc8e[m
+Author: Swetu12 <102142947+Swetu12@users.noreply.github.com>
+Date:   Mon Jan 13 17:31:42 2025 +0000
+
+    postgres database fix try 2
+
+[33mcommit 0f16a48f8d3205d96de1c79488b3161034e34a5b[m
+Author: Swetu12 <102142947+Swetu12@users.noreply.github.com>
+Date:   Mon Jan 13 17:24:46 2025 +0000
+
+    postgres database fix try 1
+
+[33mcommit 0ff13951466019badb0ac8333625a1b9f3c97696[m
+Author: Swetu12 <102142947+Swetu12@users.noreply.github.com>
+Date:   Sat Jan 11 13:18:51 2025 +0000
+
+    database postgres env
+
+[33mcommit 4b82f504355f7d9bd756175bd4c465bf0de05471[m
+Author: Swetu12 <102142947+Swetu12@users.noreply.github.com>
+Date:   Sat Jan 11 12:59:23 2025 +0000
+
+    before final
+
+[33mcommit 0b664c03d893e37dc125d44d7791be5c90ec8257[m
+Author: Swetu12 <102142947+Swetu12@users.noreply.github.com>
+Date:   Mon Dec 16 21:50:05 2024 +0000
+
+    backend for deploy first version

@@ -24,12 +24,10 @@
       "type": "string"
     },
     "gallery": {
-      "allowedTypes": [
-        "images",
-        "files"
-      ],
-      "type": "media",
-      "multiple": true
+      "displayName": "gallery",
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.gallery"
     }
   }
 }

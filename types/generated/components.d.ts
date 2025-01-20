@@ -45,6 +45,16 @@ export interface BlocksExperience extends Struct.ComponentSchema {
   };
 }
 
+export interface BlocksGallery extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_galleries';
+  info: {
+    displayName: 'gallery';
+  };
+  attributes: {
+    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+  };
+}
+
 export interface BlocksImageLayout extends Struct.ComponentSchema {
   collectionName: 'components_blocks_image_layouts';
   info: {
@@ -192,6 +202,7 @@ declare module '@strapi/strapi' {
       'blocks.cta': BlocksCta;
       'blocks.ex-card': BlocksExCard;
       'blocks.experience': BlocksExperience;
+      'blocks.gallery': BlocksGallery;
       'blocks.image-layout': BlocksImageLayout;
       'blocks.link': BlocksLink;
       'blocks.review': BlocksReview;
