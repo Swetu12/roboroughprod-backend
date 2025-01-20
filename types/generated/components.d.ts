@@ -45,6 +45,18 @@ export interface BlocksExperience extends Struct.ComponentSchema {
   };
 }
 
+export interface BlocksImageLayout extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_image_layouts';
+  info: {
+    displayName: 'imageLayout';
+  };
+  attributes: {
+    description: Schema.Attribute.Text;
+    thumbnail: Schema.Attribute.Media<'images' | 'files'>;
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface BlocksLink extends Struct.ComponentSchema {
   collectionName: 'components_blocks_links';
   info: {
@@ -180,6 +192,7 @@ declare module '@strapi/strapi' {
       'blocks.cta': BlocksCta;
       'blocks.ex-card': BlocksExCard;
       'blocks.experience': BlocksExperience;
+      'blocks.image-layout': BlocksImageLayout;
       'blocks.link': BlocksLink;
       'blocks.review': BlocksReview;
       'blocks.service': BlocksService;

@@ -22,6 +22,14 @@
     },
     "title": {
       "type": "string"
+    },
+    "gallery": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }

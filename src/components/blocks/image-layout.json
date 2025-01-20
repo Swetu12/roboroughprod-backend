@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_image_layouts",
+  "info": {
+    "displayName": "imageLayout"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "thumbnail": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
