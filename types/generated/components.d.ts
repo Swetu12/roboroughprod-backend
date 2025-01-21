@@ -78,6 +78,18 @@ export interface BlocksLink extends Struct.ComponentSchema {
   };
 }
 
+export interface BlocksMetadata extends Struct.ComponentSchema {
+  collectionName: 'components_blocks_metadata';
+  info: {
+    displayName: 'metadata';
+  };
+  attributes: {
+    keywords: Schema.Attribute.JSON;
+    meta_description: Schema.Attribute.Text;
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface BlocksReview extends Struct.ComponentSchema {
   collectionName: 'components_blocks_reviews';
   info: {
@@ -205,6 +217,7 @@ declare module '@strapi/strapi' {
       'blocks.gallery': BlocksGallery;
       'blocks.image-layout': BlocksImageLayout;
       'blocks.link': BlocksLink;
+      'blocks.metadata': BlocksMetadata;
       'blocks.review': BlocksReview;
       'blocks.service': BlocksService;
       'components.about': ComponentsAbout;

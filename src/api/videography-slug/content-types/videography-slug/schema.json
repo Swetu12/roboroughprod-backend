@@ -28,6 +28,11 @@
       "type": "component",
       "repeatable": true,
       "component": "blocks.gallery"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.metadata"
     }
   }
 }

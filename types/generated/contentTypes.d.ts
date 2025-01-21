@@ -421,6 +421,7 @@ export interface ApiHomepageHomepage extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     navbar: Schema.Attribute.Component<'components.navbar', false>;
     publishedAt: Schema.Attribute.DateTime;
+    seo: Schema.Attribute.Component<'blocks.metadata', false>;
     services: Schema.Attribute.Component<'components.services', false>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
@@ -452,6 +453,7 @@ export interface ApiPhotographySlugPhotographySlug
       Schema.Attribute.Private;
     photos: Schema.Attribute.Component<'components.videography-slug', true>;
     publishedAt: Schema.Attribute.DateTime;
+    seo: Schema.Attribute.Component<'blocks.metadata', false>;
     slug: Schema.Attribute.UID;
     title: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
@@ -463,6 +465,7 @@ export interface ApiPhotographySlugPhotographySlug
 export interface ApiPhotographyPhotography extends Struct.CollectionTypeSchema {
   collectionName: 'photographies';
   info: {
+    description: '';
     displayName: 'Photography';
     pluralName: 'photographies';
     singularName: 'photography';
@@ -481,6 +484,7 @@ export interface ApiPhotographyPhotography extends Struct.CollectionTypeSchema {
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
+    seo: Schema.Attribute.Component<'blocks.metadata', false>;
     services: Schema.Attribute.Component<'blocks.service', true>;
     title: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
@@ -514,6 +518,7 @@ export interface ApiVideographySlugVideographySlug
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
     reels: Schema.Attribute.Component<'components.videography-slug', true>;
+    seo: Schema.Attribute.Component<'blocks.metadata', false>;
     slug: Schema.Attribute.UID;
     title: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
@@ -525,6 +530,7 @@ export interface ApiVideographySlugVideographySlug
 export interface ApiVideographyVideography extends Struct.CollectionTypeSchema {
   collectionName: 'videographies';
   info: {
+    description: '';
     displayName: 'Videography';
     pluralName: 'videographies';
     singularName: 'videography';
@@ -543,6 +549,7 @@ export interface ApiVideographyVideography extends Struct.CollectionTypeSchema {
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
+    seo: Schema.Attribute.Component<'blocks.metadata', false>;
     services: Schema.Attribute.Component<'blocks.service', true>;
     title: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
